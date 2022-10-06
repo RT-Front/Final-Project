@@ -1,0 +1,431 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'bpg_nuskha_modern';
+    src: url(/assets/fonts/bpg_nuskha_modern.ttf);
+}
+@font-face {
+    font-family: 'alk_life';
+    src: url(/assets/fonts/alk_life.ttf);
+}
+@font-face {
+    font-family: 'Houndville';
+    src: url(/assets/fonts/Houndville.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: rgb(235, 245, 251);
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 50vh;
+    font-size: 5em;
+    color: white;
+    font-family: 'Houndville';
+}
+
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10vh;
+    font-family: 'alk_life';
+}
+
+
+
+
+
+/* Top */
+
+
+.back-img{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(https://wallup.net/wp-content/uploads/2019/09/643944-landscapes-lakes-mountains-stones-trees-forest-green-snow-sky-clouds-blue-nature-beauty-relax-quiet-2.jpg);
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(235, 245, 251);
+    padding: 1vh 2%;
+    height: 8vh;
+}
+
+.logo{
+    color: rgb(3, 233, 22);
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'bpg_nuskha_modern';
+}
+
+
+.navbar{
+    width: 50%;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'alk_life';
+    font-weight: bold;
+}
+
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+
+
+
+/* Main */
+
+
+.place{
+    display: flex;
+    justify-content: space-around;
+}
+
+#batumi-card-1{
+    width: 30vw;
+    height: 43vh;
+    background-image: url(https://server5.intermedia.ge/pictures/original/557/557249.jpg?/baTumi.jpg);
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#batumi-card-2{
+    width: 30vw;
+    height: 43vh;
+    background-image: url(https://hticenters.com/uploads/servisebi/slider/0batumi.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+#maxunceti-card-1{
+    width: 30vw;
+    height: 43vh;
+    background-image: url(https://eqskursia.ge/files/products/QNrmubMMfSvfLOAmoevt59zixIq29v.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#maxunceti-card-2{
+    width: 30vw;
+    height: 43vh;
+    background-image: url(https://ca-voir.com/wp-content/uploads/2020/08/IMG_3187-1320x1760.jpg);
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+#beshumi-card-1{
+    width: 30vw;
+    height: 43vh;
+    background-image: url(https://georgiantravelguide.com/storage/files/beshumi-khulo-achara-beshumi-khulo-adjara-4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#beshumi-card-2{
+    width: 30vw;
+    height: 43vh;
+    background-image: url(https://georgiantravelguide.com/storage/files/goderdzi-ski-resort-new-year.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#tba-card-1{
+    width: 30vw;
+    height: 43vh;
+    background-image: url(https://live.staticflickr.com/8736/28647819515_c2ccc49ba5_b.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tba-card-2{
+    width: 30vw;
+    height: 43vh;
+    background-image: url(https://live.staticflickr.com/8797/28735893276_7eea9b288b_b.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.card img{
+    width: 30vw;
+    height: 43vh;
+    transition-duration: 1s;
+}
+
+.card img:hover{
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.place p{
+    align-self: center;
+    width: 22vw;
+    text-align:justify;
+}
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+
+    .back-img{
+        height: 70vh;
+    }
+
+    h1{
+        text-align: center;
+        margin-top: 30vh;
+        font-size: 3rem;
+        color: white;
+        font-family: 'Houndville';
+    }
+
+    h2{
+        padding: 3vh;
+    }
+
+    .logo{
+        font-size: 2rem;
+    }
+    
+    .place{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .place img{
+        width: 100%;
+    }
+    
+    .place p{
+        width: 70vw;
+        text-align:justify;
+    }
+    
+    #batumi-card-1{
+        display: none;
+    }
+
+    #batumi-card-2{
+        width: 55vw;
+        margin-top: 7vh;
+    }
+
+    #maxunceti-card-1{
+        display: none;
+    }
+    
+    #maxunceti-card-2{
+        width: 50vw;
+        margin-top: 7vh;
+    }
+
+    #beshumi-card-1{
+        display: none;
+    }
+    
+    #beshumi-card-2{
+        width: 55vw;
+        margin-top: 7vh;
+    }
+
+    #tba-card-1{
+        display: none;
+    }
+    
+    #tba-card-2{
+        width: 55vw;
+        margin-top: 7vh;
+    }
+
+
+
+    .navbar{
+        width: inherit;
+    }
+
+    .hamburger{
+        display: block;
+        
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 9.5vh;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        background-color: rgba(235, 245, 251, 0.7);
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+    
+}
+
+
+
+@media screen and (max-width:450px){
+    
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .back-img{
+        height: 50vh;
+    }
+
+    h1{
+        font-size: 2rem;
+        margin-top: 25vh;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 0.7rem;
+    }
+
+    .place p{
+        width: 80%;
+    }
+
+    .place img{
+        height: 100%;
+    }
+
+    #batumi-card-2{
+        height: 35vh;
+    }
+
+    #beshumi-card-2{
+        height: 35vh;
+        background-image: url(https://georgiantravelguide.com/storage/thumbnails/dji-080112.jpg);
+    }
+
+    #tba-card-2{
+        height: 35vh;
+    }
+
+}
+
+@media screen and (max-width:426px){
+    h1{
+        font-size: 1.6rem;
+    }
+
+    #batumi-card-2{
+        height: 25vh;
+    }
+
+    #maxunceti-card-2{
+        height: 30vh;
+    }
+
+    #beshumi-card-2{
+        height: 25vh;
+        background-image: url(https://georgiantravelguide.com/storage/thumbnails/dji-080112.jpg);
+    }
+
+    #tba-card-2{
+        height: 25vh;
+    }
+
+}

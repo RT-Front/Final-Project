@@ -1,0 +1,87 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+}
+
+
+
+.back-img{
+    background-image: url(https://3.bp.blogspot.com/-NWAKHYnW9iI/VSWKcdbuCeI/AAAAAAAABTY/bf0wmtt3b1Q/s1600/achara.png);
+}
+
+header{
+    background-color: inherit;
+}
+
+.navbar{
+    width: 25%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+
+#map{
+    width: 80%;
+    height: 100vh;
+    margin-top: 1vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    
+    #map{
+        height: 80vh;
+    }
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+    
+    .back-img{
+        height: 40vh;
+    }
+
+    #map{
+        height: 50vh;
+        margin-top: 8vh;
+    }
+
+}
+
+
+
+@media screen and (max-width: 380px) {
+    
+    .back-img{
+        height: 30vh;
+    }
+
+    #map{
+        margin-top: 10vh;
+        height: 40vh;
+    }
+
+}
