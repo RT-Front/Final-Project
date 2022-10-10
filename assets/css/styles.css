@@ -15,15 +15,15 @@
 
 @font-face {
     font-family: 'bpg_nuskha_modern';
-    src: url(//assets/fonts/bpg_nuskha_modern.ttf);
+    src: url(../fonts/bpg_nuskha_modern.ttf);
 }
 @font-face {
     font-family: 'alk_life';
-    src: url(//assets/fonts/alk_life.ttf);
+    src: url(../fonts/alk_life.ttf);
 }
 @font-face {
     font-family: 'Houndville';
-    src: url(//assets/fonts/Houndville.ttf);
+    src: url(../fonts/Houndville.ttf);
 }
 
 
