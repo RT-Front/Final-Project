@@ -31,17 +31,17 @@
         </div>
     </header>
     <main>
-        <div class="wrapper">
-            <p>სახელი</p>
-            <input type="text" placeholder="გოგლი">
-            <p>გვარი</p>
-            <input type="text" placeholder="მოგლი">
-            <p>ნომერი</p>
-            <input type="number" placeholder="+995 555 11 22 33">
-            <p>შექმენით თქვენი გზა</p>
-            <textarea name="" id="" rows="10" placeholder="მაქვს ჩემს მიერ შემუშავებული გზა..."></textarea>
+        <form class="wrapper">
+            <label for="gogli">სახელი</label>
+            <input required id="gogli" type="text" placeholder="გოგლი">
+            <label for="mogli" >გვარი</label>
+            <input required id="mogli" type="text" placeholder="მოგლი">
+            <label for="number">ნომერი</label>
+            <input required id="number" type="number" placeholder="+995 555 11 22 33">
+            <label for="text">შექმენით თქვენი გზა</label>
+            <textarea name="" id="text" rows="10" placeholder="მაქვს ჩემს მიერ შემუშავებული გზა..."></textarea>
             <button type="submit">Submit</button>
-        </div>
+        </form>
     </main>
     <script src="assets/js/script.js"></script>
 </body>

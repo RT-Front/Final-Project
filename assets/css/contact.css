@@ -23,6 +23,12 @@ main{
     background-color: rgb(255, 255, 255)
  }
 
+
+ .nav-menu{
+    width: 50%;
+    margin-left: auto;
+ }
+
 .wrapper{
     width: 46vw;
     height: 40vh;
@@ -98,6 +104,10 @@ main{
     .wrapper img{
         width: 25px;
     }
+
+    .nav-menu{
+        width: 100%;
+     }
 
     .wrapper p{
         font-size: 1rem;
